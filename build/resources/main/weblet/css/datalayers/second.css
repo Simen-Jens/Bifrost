@@ -1,0 +1,17 @@
+#secondDataLayer{
+    top:800px;
+    font-weight:300;
+    color:#fff;
+    height:700px;
+    background-color:#27292b;
+}
+
+.imageTile{
+    top:0px;
+    padding-left:50px;
+    padding-right:50px;
+    height:350px;
+    display:inline-block;
+    max-width:15%;
+    max-height:350px;
+}

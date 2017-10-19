@@ -1,0 +1,33 @@
+#firstDataLayer{
+    font-weight:300;
+    color:#fff;
+    height:700px;
+    background-color:#3ec7c2;
+}
+
+#intro{
+    position:absolute;
+    width:40%;
+    height:75%;
+    top:25%;
+    text-align:left;
+    padding-left:50px;
+}
+
+#p1{
+    margin-bottom:0px;
+}
+
+#p2{
+    color:#27292b;
+    text-transform: uppercase;
+    margin-top:20px;
+    margin-bottom:0px;
+}
+
+#p3{
+    color:#fff;
+    margin-top:20px;
+    letter-spacing:0px;
+    margin-bottom:50px;
+}

@@ -1,0 +1,41 @@
+h1{
+    font-size:60px;
+    font-weight:bold;
+}
+
+h2{
+    font-size:48px;
+    font-weight:300;
+}
+
+h3{
+    font-size:24px;
+    font-weight:300;
+}
+
+h4{
+    font-size:14px;
+    font-weight:300;
+    line-height:24px;
+}
+
+.splitter{
+    vertical-align:top;
+    display:inline-block;
+    width:45%;
+    height:100%;
+}
+
+.divider{
+    display:block;
+    width:100%;
+    height:49%;
+}
+
+.dataLayer{
+    position:absolute;
+    width:100%;
+    font-size:28px;
+    font-family: 'Raleway', sans-serif;
+    text-align:center;
+}

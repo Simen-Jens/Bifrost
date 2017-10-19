@@ -1,0 +1,39 @@
+<html>
+<head>
+    <script src="http://localhost:8080/scripts/aktiv.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet">
+    <title>AKTIVJS FRAMEWORK</title>
+
+    <script>
+        function regKey(e) {
+            if (e.keyCode === 13) {
+                e.preventDefault(); // Ensure it is only this code that rusn
+
+                sendData();
+            }
+        }
+
+        function sendData() {
+            window.location.href = "http://localhost:8080/msg/litatestkey/" + document.getElementById('msg').value;
+        }
+    </script>
+
+    <style>
+        body {
+            margin: 0px;
+            background-color: #f4f4f4;
+            overflow-x: hidden;
+            font-family: 'Raleway', sans-serif;
+            line-height:25px;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="blob" style="position:absolute; width:100%; height: 90%; left:0px; top:0px;" aktivJS:HCR:XSS="http://localhost:8080/HCR/litatestkey">
+        loading...
+    </div>
+    <input onkeypress="regKey(event);" id="msg" style="position:absolute; width:90%; height:10%; top:90%; left:0px;" type="text" name="fname">
+    <div onclick="sendData(this);" style="position:absolute; width:10%; height:10%; top:90%; left:90%; background-color:#3ec7c2; background-image:url('https://d30y9cdsu7xlg0.cloudfront.net/png/171153-200.png'); background-position:center; background-size:contain; background-repeat:no-repeat;"></div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Class-Path: purplejs-boot-0.8.0.jar purplejs-thymeleaf-0.8.0.jar orien
+ tdb-core-2.0.8.jar orientdb-jdbc-2.0.8.jar json-20090211.jar purplejs
+ -http-0.8.0.jar purplejs-router-0.8.0.jar jetty-servlet-9.3.10.v20160
+ 621.jar websocket-server-9.3.10.v20160621.jar logback-classic-1.1.7.j
+ ar jul-to-slf4j-1.7.21.jar purplejs-core-0.8.0.jar thymeleaf-3.0.2.RE
+ LEASE.jar snappy-java-1.1.0.1.jar concurrentlinkedhashmap-lru-1.4.1.j
+ ar jna-4.0.0.jar jna-platform-4.0.0.jar orientdb-graphdb-2.0.8.jar or
+ ientdb-client-2.0.8.jar jetty-security-9.3.10.v20160621.jar websocket
+ -common-9.3.10.v20160621.jar websocket-client-9.3.10.v20160621.jar we
+ bsocket-servlet-9.3.10.v20160621.jar jetty-http-9.3.10.v20160621.jar 
+ logback-core-1.1.7.jar guava-19.0.jar gson-2.7.jar ognl-3.1.10.jar at
+ toparser-2.0.1.RELEASE.jar unbescape-1.1.4.RELEASE.jar orientdb-serve
+ r-2.0.8.jar orientdb-tools-2.0.8.jar blueprints-core-2.6.0.jar gremli
+ n-java-2.6.0.jar gremlin-groovy-2.6.0.jar orientdb-enterprise-2.0.8.j
+ ar jetty-server-9.3.10.v20160621.jar websocket-api-9.3.10.v20160621.j
+ ar jetty-util-9.3.10.v20160621.jar jetty-io-9.3.10.v20160621.jar java
+ x.servlet-api-3.1.0.jar javassist-3.20.0-GA.jar mail-1.4.jar orientdb
+ -object-2.0.8.jar jettison-1.3.3.jar jackson-databind-2.2.3.jar hppc-
+ 0.6.0.jar commons-configuration-1.6.jar commons-logging-1.1.1.jar pip
+ es-2.6.0.jar ivy-2.3.0.jar groovy-1.8.9.jar ant-1.8.3.jar jansi-1.5.j
+ ar jline-0.9.94.jar activation-1.1.jar hibernate-jpa-2.0-api-1.0.0.Fi
+ nal.jar stax-api-1.0.1.jar jackson-annotations-2.2.3.jar jackson-core
+ -2.2.3.jar commons-collections-3.2.1.jar commons-lang-2.4.jar commons
+ -digester-1.8.jar commons-beanutils-core-1.8.0.jar antlr-2.7.7.jar as
+ m-3.2.jar asm-commons-3.2.jar asm-util-3.2.jar asm-analysis-3.2.jar a
+ sm-tree-3.2.jar ant-launcher-1.8.3.jar commons-beanutils-1.7.0.jar sl
+ f4j-api-1.7.21.jar
+Main-Class: io.purplejs.boot.MainApp
+
